@@ -15,6 +15,7 @@ namespace CodeChallenges
       {
         newArray[i] = array[i - 1];
       }
+      //
 
       //insert the value into the middle of the array
       return newArray;
