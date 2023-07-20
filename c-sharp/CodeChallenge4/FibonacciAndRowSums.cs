@@ -20,6 +20,9 @@ namespace CodeChallenges
         current = next;
       }
       return current;
+            int result = 0;
+
+            return result;
         }
 
         public static int[] RowSums(int[][] matrix)
