@@ -19,7 +19,6 @@ namespace CodeChallenges
         previous = current;
         current = next;
       }
-      //return 0;
       return current;
         }
 
