@@ -1,19 +1,12 @@
 namespace CodeChallenges 
 {
-  public class Node
-  {
-    public int Value { get; set; }
-    public Node Next { get; set; }
-  }
-  public class LinkedList
-  {
-    public Node Head { get; set; }
-  }
+  
+  
   public class InsertableLinkedList : LinkedList
   {
     public void Append(int value)
     {
-      Node newNode = new Node { Value = value };
+      Node newNode = new Node(value);
       if (Head == null)
       {
         Head = newNode;
@@ -30,7 +23,7 @@ namespace CodeChallenges
     }
     public void Insert(int value)
     {
-      Node newNode = new Node { Value = value };
+      Node newNode = new Node (value);
       if (Head == null)
       {
         Head = newNode;
@@ -47,7 +40,7 @@ namespace CodeChallenges
       {
         return;
       }
-      Node newNode = new Node { Value = valueToInsert };
+      Node newNode = new Node(valueToInsert);
       if (Head.Value == value)
       {
         newNode.Next = Head;
@@ -68,7 +61,7 @@ namespace CodeChallenges
     }
     public void InsertAfter(int value, int valueToInsert)
     {
-      Node newNode = new Node { Value = valueToInsert };
+      Node newNode = new Node (valueToInsert);
       if (Head == null)
       {
         Head = newNode;
