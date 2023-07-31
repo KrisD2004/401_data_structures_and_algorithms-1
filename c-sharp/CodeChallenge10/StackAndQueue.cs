@@ -24,6 +24,8 @@ namespace CodeChallenges
     {
       Top = node;
 
+
+        
     }
     public Stack()
     {
@@ -166,6 +168,8 @@ namespace CodeChallenges
       {
         return true;
       }
+
+
     }
   }
 }
