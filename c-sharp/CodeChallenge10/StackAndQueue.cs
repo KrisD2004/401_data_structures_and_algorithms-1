@@ -24,11 +24,6 @@ namespace CodeChallenges
     {
       Top = node;
 
-
-
-    public class Node
-    {
-      
     }
     public Stack()
     {
